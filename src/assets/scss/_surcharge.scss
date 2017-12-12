@@ -6,7 +6,11 @@ src: url('../fonts/NorthernLights-Script.ttf');
 font-family: 'Avenir';
 src: url('../fonts/Avenir.ttc');
 }
-h1, h4, .background_boma-hotel, .text_boma-hotel{
+
+.logo{height: 70px;}
+
+/*titles*/
+h1, h2, h4, h5, p, .background_boma-hotel, .text_boma-hotel{
   font-family: "Avenir";
 }
 h1{
@@ -15,17 +19,18 @@ h1{
 h4{
   line-height: 0px;
   margin-bottom: 40px;
-  font-weight: 800;
-}
-.logo{
-  height: 70px;
 }
 
+h4, .btn-cupidon{
+  font-weight: 500;
+}
+
+
 /*colors*/
-h4{
+h4, .span_color{
   color: #bba27e;
 }
-h1, p.text_boma-hotel, a.bouton-slider{
+h1, p.text_boma-hotel, a.bouton-slider, .btn-cupidon, .text_clair{
   color: #fff;
 }
 .background_boma-hotel, .text_boma-hotel{
@@ -37,7 +42,7 @@ h1, p.text_boma-hotel, a.bouton-slider{
 .background_boma-hotel{
   margin-right: 30px;
 }
-.section_boma-hotel{
+.background_fonce{
   background-color: #2d2d2d;
 }
 .background_boma-hotel{
@@ -55,9 +60,14 @@ h1, p.text_boma-hotel, a.bouton-slider{
   line-height: 30px;
   margin-bottom: 41px;
 }
+.bouton-slider, .btn-cupidon{
+  padding: 8px 40px;
+}
 .bouton-slider{
   border: solid 1px #bba27e;
-  padding: 5px 40px;
+}
+.btn-cupidon{
+  background-color: #ff0a55;
 }
 
 .orbit-bullets{
@@ -71,6 +81,16 @@ h1, p.text_boma-hotel, a.bouton-slider{
   background-color: inherit;
 }
 
+
+.section_cupidon-btn{
+  background-image: url("../img/background-heart.png");
+  background-size: cover;
+  height: 150px;
+}
+.section_cupidon{
+  margin-top: 60px;
+}
+
 @media screen and (min-width: 640px) {
 
 
@@ -81,8 +101,7 @@ h1, p.text_boma-hotel, a.bouton-slider{
     line-height: 50px;
     margin-bottom: 40px;
   }
-  .bouton-slider{
+  .bouton-slider, .btn-cupidon{
     padding: 12px 60px;
-    background-color: pink;
   }
 }

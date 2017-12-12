@@ -148,10 +148,10 @@ $header-styles: (
   ),
   medium: (
     'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
+    'h2': ('font-size': 45),
     'h3': ('font-size': 31),
     'h4': ('font-size': 22),
-    'h5': ('font-size': 20),
+    'h5': ('font-size': 15),
     'h6': ('font-size': 16),
   ),
 );
@@ -511,7 +511,7 @@ $offcanvas-transition-length: 0.5s;
 $offcanvas-transition-timing: ease;
 $offcanvas-fixed-reveal: true;
 $offcanvas-exit-background: rgba($white, 0.25);
-$maincontent-class: 'off-canvas-content';
+$menu-icon-class: 'off-canvas-content';
 
 // 26. Orbit
 // ---------
