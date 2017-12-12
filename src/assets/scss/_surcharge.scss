@@ -1,196 +1,216 @@
 @font-face {
-font-family: 'NorthernLights-Script';
-src: url('../fonts/NorthernLights-Script.ttf');
+  font-family: 'NorthernLights-Script';
+  src: url("../fonts/NorthernLights-Script.ttf");
 }
 @font-face {
-font-family: 'Avenir';
-src: url('../fonts/Avenir.ttc');
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir.ttc");
 }
 
-.logo{
+.logo {
   height: 80px;
-  padding: 10px 0;
+  padding: 10px 20px;
 }
-/*burger menu*/
-.position-right.is-transition-push{
+/*-----------------burger menu-----------------*/
+.position-right.is-transition-push {
   box-shadow: none;
   z-index: 100000;
 }
-
-.title-bar .menu-icon{
-  margin: 30px;
-}
+.title-bar .menu-icon { margin: 30px; }
 /*background menu offcanvas (gauche)*/
-.js-off-canvas-overlay.is-overlay-fixed{
-    background-color: #2d2d2d;
-    opacity: 0.8;
-    z-index: 10000;
+.js-off-canvas-overlay.is-overlay-fixed {
+  background-color: #2d2d2d;
+  opacity: 0.8;
+  z-index: 10000;
 }
 /*padding cellules*/
-.drilldown a{
-  padding: 1.3rem 1rem;
-}
-.drilldown a:hover{
+.drilldown a { padding: 1.3rem 1rem; }
+
+.drilldown a:hover {
   background-color: #ff0a55;
   color: #fff;
 }
-
-/*titles*/
-h1, h2, h4, h5, p, .background_boma-hotel, .text_boma-hotel, .menu.vertical{
+/*-----------------titles-----------------*/
+.background_boma-hotel, .menu.vertical, .text_boma-hotel, h1, h2, h4, h5, p {
   font-family: "Avenir";
 }
-h1{
-  margin: 10px 0 0 0;
-}
-h4{
-  line-height: 0px;
+
+h1 { margin: 10px 0 0; }
+
+h4 {
+  line-height: 0;
   margin-bottom: 40px;
   margin-top: 10px;
 }
 
-h4, .btn-cupidon{
-  font-weight: 500;
-}
+.btn-cupidon, h4 { font-weight: 500; }
 
-.text_footer{
-  margin-top: 12px;
-}
-/*colors*/
-h4, .span_color{
+.text_footer { margin-top: 12px; }
+/*---colors---*/
+.span_color, h4 {
   color: #bba27e;
 }
-.color-cupidon{
+.color-cupidon {
   color: #ff0a55;
 }
-.title_cupidon{
-  margin: 30px 0;
-}
-.background_beige{
-  background-color: #bba27e;
-}
-.bg_cupidon{
-  margin-top: 40px;
-}
-h1, p.text_boma-hotel, a.bouton-slider, .btn-cupidon, .text_clair {
+.btn-cupidon, .text_clair, a.bouton-slider, h1, p.text_boma-hotel {
   color: #fff;
 }
-.background_boma-hotel, .text_boma-hotel {
+
+.background_beige {
+  background-color: #bba27e;
+}
+
+.bg_cupidon {
+  margin-top: 40px;
+}
+
+
+.title_cupidon { margin: 30px 0; }
+
+.text_boma-hotel {
   padding: 20px;
 }
-.background_boma-hotel, .text_boma-hotel{
+/*-----------------background-----------------*/
+.background_boma-hotel, .background_boma-hotel, .text_boma-hotel {
   text-align: left;
 }
-.background_boma-hotel{
+
+.background_boma-hotel {
   margin-right: 30px;
 }
-.background_fonce{
+
+.background_fonce {
   background-color: #2d2d2d;
 }
-.background_boma-hotel{
+
+.background_boma-hotel {
   background-color: #fff;
   font-size: 15px;
 }
-.icons-cupidon{
+
+/*-----------------icons-----------------*/
+.icons-cupidon {
   height: 65px;
   margin-bottom: 15px;
 }
-.bloc_icon-cupidon{
+.bloc_icon-cupidon {
   margin-bottom: 40px;
 }
+/*-----------------boutons-----------------*/
+.bouton_boma-hotel {
+  padding: 0 0 50px;
+}
+.padding_bottom {
+  padding: 0 0 40px;
+}
+.bouton-slider, .btn-cupidon {
+  padding: 8px 40px;
+}
 
-.bouton_boma-hotel{
-  padding: 0 0 50px 0;
+.bouton-slider {
+  border: solid 1px #bba27e;
 }
-.padding_bottom{
-  padding: 0 0 40px 0;
+
+.btn-cupidon {
+  background-color: #ff0a55;
 }
-/*slide*/
-.typo-slider{
+.bouton-slider:hover {
+  background-color: #bba27e;
+  color: #fff;
+}
+
+.btn-cupidon:hover {
+  background-color: #ff6c99;
+  color: #fff;
+}
+
+
+/*-----------------slide-----------------*/
+.typo-slider {
   font-family: "NorthernLights-Script";
   font-size: 40px;
   line-height: 30px;
   margin-bottom: 41px;
 }
-.bouton-slider, .btn-cupidon{
-  padding: 8px 40px;
-}
-.bouton-slider{
-  border: solid 1px #bba27e;
-}
-.btn-cupidon{
-  background-color: #ff0a55;
-}
 
-.orbit-bullets{
+.orbit-bullets {
   display: none;
 }
 
-.orbit-caption{
+.orbit-caption {
   background-color: inherit;
 }
-.map_mobile{
+/*-----------------map-----------------*/
+.map_mobile {
   padding: 0 30px;
 }
-.section_cupidon-btn{
+.map {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+/*-----------------Week-end Cupidon-----------------*/
+.section_cupidon-btn {
   background-image: url("../img/background-heart.png");
   background-size: cover;
   height: 150px;
 }
-.section_cupidon{
+.section_cupidon {
   margin-top: 60px;
 }
 
-.map{
-  width: 100%;
-  height: 200px;
-  border:none;
-}
-.padding{
+.padding {
   padding: 30px 20px;
 }
 
-.bouton-slider:hover {
-  background-color: #bba27e;
-  color: #fff;
-}
-.btn-cupidon:hover{
-  background-color: #ff6c99;
-  color: #fff;
+
+/*----Effet image 1---*/
+.image {
+  overflow: hidden;
+  transition: transform 0.5s ease;
+
+  img {
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 0.8s ease;
+  }
+  &:hover img {
+    transform: scale(1.15);
+  }
 }
 
 @media screen and (min-width: 640px) {
-
-
-  /*slide*/
-  .typo-slider{
+  /*-----------------bouton-----------------*/
+  .bouton-slider, .btn-cupidon {
+    padding: 12px 60px;
+  }
+  /*-----------------map-----------------*/
+  .map {
+    height: 350px;
+  }
+  .map_mobile {
+    padding: 0 130px;
+  }
+  /*----------------br-----------------*/
+  .br_mobile {
+    display: none;
+  }
+  /*-----------------slide-----------------*/
+  .typo-slider {
     font-family: "NorthernLights-Script";
     font-size: 60px;
     line-height: 50px;
     margin-bottom: 40px;
   }
-  .bouton-slider, .btn-cupidon{
-    padding: 12px 60px;
-  }
-
-  /*Map*/
-  .map{
-    height: 350px;
-  }
-
-  .br_mobile{
-    display: none;
-  }
-  .orbit-caption{
+  .orbit-caption {
     padding: 100px;
     background-color: inherit;
   }
-  .orbit-bullets{
+  .orbit-bullets {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     z-index: 1111;
     display: block;
-  }
-  .map_mobile{
-    padding: 0 130px;
   }
 }
