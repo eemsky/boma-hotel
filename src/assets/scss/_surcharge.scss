@@ -7,10 +7,36 @@ font-family: 'Avenir';
 src: url('../fonts/Avenir.ttc');
 }
 
-.logo{height: 70px;}
+.logo{
+  height: 80px;
+  padding: 10px 0;
+}
+/*burger menu*/
+.position-right.is-transition-push{
+  box-shadow: none;
+  z-index: 100000;
+}
+
+.title-bar .menu-icon{
+  margin: 30px;
+}
+/*background menu offcanvas (gauche)*/
+.js-off-canvas-overlay.is-overlay-fixed{
+    background-color: #2d2d2d;
+    opacity: 0.8;
+    z-index: 10000;
+}
+/*padding cellules*/
+.drilldown a{
+  padding: 1.3rem 1rem;
+}
+.drilldown a:hover{
+  background-color: #ff0a55;
+  color: #fff;
+}
 
 /*titles*/
-h1, h2, h4, h5, p, .background_boma-hotel, .text_boma-hotel{
+h1, h2, h4, h5, p, .background_boma-hotel, .text_boma-hotel, .menu.vertical{
   font-family: "Avenir";
 }
 h1{
@@ -19,6 +45,7 @@ h1{
 h4{
   line-height: 0px;
   margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 h4, .btn-cupidon{
@@ -31,6 +58,9 @@ h4, .btn-cupidon{
 /*colors*/
 h4, .span_color{
   color: #bba27e;
+}
+.color-cupidon{
+  color: #ff0a55;
 }
 .title_cupidon{
   margin: 30px 0;
@@ -61,8 +91,11 @@ h1, p.text_boma-hotel, a.bouton-slider, .btn-cupidon, .text_clair {
   font-size: 15px;
 }
 .icons-cupidon{
-  height: 60px;
+  height: 65px;
   margin-bottom: 15px;
+}
+.bloc_icon-cupidon{
+  margin-bottom: 40px;
 }
 
 .bouton_boma-hotel{
@@ -89,17 +122,15 @@ h1, p.text_boma-hotel, a.bouton-slider, .btn-cupidon, .text_clair {
 }
 
 .orbit-bullets{
-  position: absolute;
-  bottom:0;
-  z-index: 1111;
+  display: none;
 }
 
 .orbit-caption{
-  padding: 100px;
   background-color: inherit;
 }
-
-
+.map_mobile{
+  padding: 0 30px;
+}
 .section_cupidon-btn{
   background-image: url("../img/background-heart.png");
   background-size: cover;
@@ -114,8 +145,17 @@ h1, p.text_boma-hotel, a.bouton-slider, .btn-cupidon, .text_clair {
   height: 200px;
   border:none;
 }
-.footer_boma{
-  padding: 20px 0;
+.padding{
+  padding: 30px 20px;
+}
+
+.bouton-slider:hover {
+  background-color: #bba27e;
+  color: #fff;
+}
+.btn-cupidon:hover{
+  background-color: #ff6c99;
+  color: #fff;
 }
 
 @media screen and (min-width: 640px) {
@@ -139,5 +179,18 @@ h1, p.text_boma-hotel, a.bouton-slider, .btn-cupidon, .text_clair {
 
   .br_mobile{
     display: none;
+  }
+  .orbit-caption{
+    padding: 100px;
+    background-color: inherit;
+  }
+  .orbit-bullets{
+    position: absolute;
+    bottom:0;
+    z-index: 1111;
+    display: block;
+  }
+  .map_mobile{
+    padding: 0 130px;
   }
 }
