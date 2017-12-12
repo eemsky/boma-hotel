@@ -6,7 +6,7 @@ src: url('../fonts/NorthernLights-Script.ttf');
 font-family: 'Avenir';
 src: url('../fonts/Avenir.ttc');
 }
-h1, h4, .background_boma-hotel{
+h1, h4, .background_boma-hotel, .text_boma-hotel{
   font-family: "Avenir";
 }
 h1{
@@ -25,20 +25,29 @@ h4{
 h4{
   color: #bba27e;
 }
-h1{
+h1, p.text_boma-hotel, a.bouton-slider{
   color: #fff;
 }
-
+.background_boma-hotel, .text_boma-hotel{
+  padding: 20px;
+}
+.background_boma-hotel, .text_boma-hotel{
+  text-align: left;
+}
+.background_boma-hotel{
+  margin-right: 30px;
+}
 .section_boma-hotel{
   background-color: #2d2d2d;
 }
 .background_boma-hotel{
   background-color: #fff;
-  padding: 20px;
-  text-align: left;
   font-size: 15px;
 }
 
+.bouton_boma-hotel{
+  padding: 0 0 50px 0;
+}
 /*slide*/
 .typo-slider{
   font-family: "NorthernLights-Script";
@@ -51,9 +60,6 @@ h1{
   padding: 5px 40px;
 }
 
-a.bouton-slider{
-  color: #fff;
-}
 .orbit-bullets{
   position: absolute;
   bottom:0;
