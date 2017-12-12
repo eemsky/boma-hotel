@@ -32,13 +32,19 @@ h4, .btn-cupidon{
 h4, .span_color{
   color: #bba27e;
 }
+.title_cupidon{
+  margin: 30px 0;
+}
 .background_beige{
   background-color: #bba27e;
 }
-h1, p.text_boma-hotel, a.bouton-slider, .btn-cupidon, .text_clair{
+.bg_cupidon{
+  margin-top: 40px;
+}
+h1, p.text_boma-hotel, a.bouton-slider, .btn-cupidon, .text_clair {
   color: #fff;
 }
-.background_boma-hotel, .text_boma-hotel{
+.background_boma-hotel, .text_boma-hotel {
   padding: 20px;
 }
 .background_boma-hotel, .text_boma-hotel{
@@ -54,9 +60,16 @@ h1, p.text_boma-hotel, a.bouton-slider, .btn-cupidon, .text_clair{
   background-color: #fff;
   font-size: 15px;
 }
+.icons-cupidon{
+  height: 60px;
+  margin-bottom: 15px;
+}
 
 .bouton_boma-hotel{
   padding: 0 0 50px 0;
+}
+.padding_bottom{
+  padding: 0 0 40px 0;
 }
 /*slide*/
 .typo-slider{
@@ -100,6 +113,9 @@ h1, p.text_boma-hotel, a.bouton-slider, .btn-cupidon, .text_clair{
   width: 100%;
   height: 200px;
   border:none;
+}
+.footer_boma{
+  padding: 20px 0;
 }
 
 @media screen and (min-width: 640px) {
